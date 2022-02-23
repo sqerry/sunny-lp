@@ -1,0 +1,82 @@
+.testimonials {
+  padding: 4.4rem 1.5rem;
+  h2 {
+    text-transform: uppercase;
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    color: $grayishBlue;
+    font-weight: 800;
+  }
+}
+.container {
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+.testimonial {
+  text-align: center;
+  margin: 3rem 0;
+  img {
+    width: 4rem;
+    border-radius: 5rem;
+  }
+  p {
+    margin: 2rem 0;
+    line-height: 1.7rem;
+    color: $veryDarkBlue;
+  }
+  h3 {
+    margin-bottom: 1rem;
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+  }
+  h4 {
+    color: $grayishBlue;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+.last {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 36.5625em) {
+  .testimonials {
+    padding: 8.4rem 1.5rem;
+    h2 {
+      font-size: 1.3rem;
+    }
+    .container {
+      margin-top: 5rem;
+      max-width: 100%;
+      padding: 0 6.5rem;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .testimonial {
+    margin: 0rem;
+    max-width: 22rem;
+    min-height: 20rem;
+
+    p {
+      margin: 3rem 0;
+      line-height: 1.7rem;
+      color: $veryDarkBlue;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      margin: 0.5rem;
+    }
+    h4 {
+      font-size: 0.9rem;
+    }
+  }
+
+  .thomas {
+    margin: 0 1rem;
+  }
+}
